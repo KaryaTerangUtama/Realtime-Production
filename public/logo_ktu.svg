@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 220" width="500" height="220">
+  <!-- Background transparent -->
+  
+  <!-- Excavator Arm graphic on top -->
+  <path d="M 240 50 L 320 20 L 380 40 L 400 65 L 385 68 L 370 50 L 315 35 L 245 62 Z" fill="#14161B" />
+  <path d="M 370 50 L 395 75 L 380 82 L 362 60 Z" fill="#14161B" />
+
+  <!-- KTU Letters -->
+  <!-- K (Red and Black slanted block) -->
+  <polygon points="130,70 175,70 155,145 110,145" fill="#7B1113" />
+  <path d="M 130 70 L 175 70 L 145 145 L 110 145 Z" fill="#7B1113" />
+  <path d="M 160 70 L 210  70 L 180 145 L 130 145 Z" fill="#14161B" />
+
+  <!-- T -->
+  <path d="M 220 70 L 320 70 L 320 95 L 285 95 L 285 145 L 255 145 L 255 95 L 220 95 Z" fill="#14161B" />
+
+  <!-- U -->
+  <path d="M 330 70 L 360 70 L 360 120 C 360 135 375 135 390 135 C 405 135 420 135 420 120 L 420 70 L 450 70 L 450 125 C 450 150 420 160 390 160 C 360 160 330 150 330 125 Z" fill="#14161B" />
+
+  <!-- PT. KARYA TERANG UTAMA -->
+  <text x="285" y="185" font-family="Arial, sans-serif" font-weight="900" font-size="22" fill="#14161B" text-anchor="middle" letter-spacing="1">PT. KARYA TERANG UTAMA</text>
+  
+  <!-- INDUSTRIAL ENGINEERING - CONSTRUCTION - MINING -->
+  <text x="285" y="205" font-family="Arial, sans-serif" font-weight="700" font-size="9" fill="#555" text-anchor="middle" letter-spacing="1.5">INDUSTRIAL ENGINEERING &bull; CONSTRUCTION &bull; MINING</text>
+</svg>

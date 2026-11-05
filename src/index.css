@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+:root {
+  /* PT. KARYA TERANG UTAMA - THEME: HITAM, CREAM, MAROON (SOLID & SOOTHING) */
+  --color-maroon-primary: #7b1113;
+  --color-maroon-dark: #580a0b;
+  --color-maroon-light: #94181a;
+  --color-maroon-accent: #6b0f11;
+
+  --color-cream-bg: #f4efe6;
+  --color-cream-surface: #faf7f2;
+  --color-cream-card: #fdfbf7;
+  --color-cream-border: #e2d7c5;
+  --color-cream-dark: #ebe3d5;
+
+  --color-black-main: #14161b;
+  --color-black-surface: #1a1c22;
+  --color-black-card: #1f2229;
+  --color-black-text: #181a1f;
+
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+body {
+  background-color: #f4efe6;
+  color: #181a1f;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Eye-friendly solid cards */
+.theme-card {
+  background-color: #faf7f2;
+  border: 1px solid #e2d7c5;
+}
+
+.theme-card-black {
+  background-color: #14161b;
+  border: 1px solid #282a32;
+  color: #f7f4ee;
+}
+
+.theme-card-maroon {
+  background-color: #7b1113;
+  border: 1px solid #580a0b;
+  color: #ffffff;
+}
+
+/* Custom scrollbars with warm cream & maroon accents */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ebe3d5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c7baa7;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7b1113;
+}
